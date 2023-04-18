@@ -1,0 +1,9 @@
+###Get all product lists
+GET http://localhost:8082/api/v1/shopping
+
+<> 2023-04-18T090850.200.json
+
+###Get product by id
+GET http://localhost:8082/api/v1/shopping/2
+
+<> 2023-04-18T090855.200.json

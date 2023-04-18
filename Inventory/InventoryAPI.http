@@ -1,0 +1,28 @@
+###Create a new Product
+POST http://localhost:8081/api/v1/products
+Content-Type: Application/json
+
+{
+  "name": "Product 3",
+  "price": 110.30,
+  "quantity": 5
+}
+
+###Get all products
+GET http://localhost:8081/api/v1/products
+
+###Find product by id
+GET http://localhost:8081/api/v1/products/1
+
+###Update product
+PUT http://localhost:8081/api/v1/products/1
+Content-Type: Application/json
+
+{ "id": "1",
+  "name": "Product new name",
+  "quantity": 66,
+  "price": 10.22
+}
+
+###Delete product
+DELETE http://localhost:8081/api/v1/products/1
